@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* --初始化start-- */
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,pre,form,input,textarea,th,td,select{margin: 0; padding: 0;}
+em { font-style: normal; }
+li { list-style: none; }
+a, a:hover { text-decoration: none; color: #FFF;}
+img { border: none; vertical-align: top; }
+table { border-collapse: collapse; }
+textarea { resize: none; overflow: auto; }
+/* --初始化end-- */
+
+/*public*/
+body { background: #FFF; }
+.clear { *zoom:1; }
+.clear:after { content:""; display: block; clear: both; }
+
+#top {	
+	background: #10a2e1;
+}
+.top_wrap {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 16px;
+	color: #FFF;
+	height: 40px;
+	line-height: 40px;
+
+}
+.top_wrap_nav,.top_wrap_nav li { float: left; }
+.top_wrap_nav .bar { float: left; padding: 0 20px; color: #CCC; }
+.top_wrap_user { display: none; }
+.top_wrap_pass, .top_wrap_user { float: right; }
+.top_wrap_pass li,.top_wrap_user li {
+	float: left;
+	padding-left:20px;
+}
+.top_wrap_pass a { color:#FFF; }
+/*--public end--*/
+
+/* --content-- */
+#content {
+	background: url(../img/bg.jpg) no-repeat center #c1e3ec fixed;
+}	
+#wrap {	
+	width: 1000px;
+	background: rgba(57,121,132,0.3)!important;
+	filter: alpha(opacity=30);
+	background: #397984;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom:10px;
+}
+
+#main {
+	width: 600px;
+	margin-right: 10px;
+	float: left;
+	margin-top: 10px;
+}
+
+#side_left {
+	width: 150px;
+	float: left;
+	height: 920px;
+}
+.side_list {
+	margin-top: 10px;
+}
+.side_menu {
+	text-indent: 10px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+.side_menu:hover {
+	background: rgba(193,277,236,0.2)!important; 
+}
+#side_right {
+	width: 230px;
+	margin-right: 10px;
+	float: left;
+	margin-top: 10px;
+}
+#noword {
+	margin-top: 20px;
+	font-size: 25px;
+	color: #FFF;
+	display: none;
+}
+#showmore {
+	margin-top: 10px;
+	font-size: 16px;
+	color: #444;
+	background: #FFF;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+/* --write-- */
+.write {
+	width: 580px;
+	padding: 12px 10px ;
+	background: #FFF;
+	border-radius:4px;
+}
+.write p {
+	font-size: 16px;
+	color: #47bad4;
+	padding-bottom: 8px;
+}
+.write textarea {
+	width: 578px;
+	border: 1px solid #cccccc;
+	height: 78px;
+	box-shadow: 0 0 1px 1px #eee inset;
+}
+.write input {
+	float: right;
+	width: 82px;
+	height: 30px;
+	background: #f19f73;
+	color:white;
+	border: none;
+	margin-top:3px;
+}
+.write input:hover {
+	background: #e36d2e;
+}
+/* --write end-- */
+
+/* --发表的留言内容 published-- */
+.published {
+	width: 580px;
+	-height:400px;
+	margin-top: 10px;
+	padding: 12px 10px ;
+	background: #FFF;
+	border-radius:4px;	
+}
+.published div {
+	margin: 5px 0 5px;
+	padding: 10px 0 50px;
+	border: none;
+	border-top: 1px dotted #368ea0;
+	border-bottom: 1px dotted #368ea0;
+	font-size: 13px;
+	font-family:'宋体';
+}
+
+.published h3 {
+	color: #10a2e1;
+	
+}
+.published a {
+	color: #777;
+	font-size: 12px;
+	float: right;
+	padding-right: 10px;
+}
+.published a:hover {
+	color: #f19f73;
+}
+/* --发表的留言内容 end-- */
+
+
+/* --content end-- */
+
+
+/* register / login */
+#register,#login { 
+	width: 800px; 
+	height: 500px;
+	margin: 150px auto 0; 
+	border: 1px solid #bbb;
+	background: #FFF;
+	box-shadow: 0px 5px 10px rgba( 0,0,0,0.15 );
+}
+.register_top, .login_top {
+	height: 50px;
+	background: #10a2e1;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color: #FFF;
+	font-family: '宋体';
+}
+#register table, #login table {	
+	width: 310px;	
+	margin: 100px 0 0 250px;
+	font-size: 12px;
+}
+#register th, #login th {
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+ }
+.input {
+	width: 250px;
+	height: 36px;
+	border: 1px solid #ddd;
+	height: 30px;
+}
+.button {
+	width: 50px;
+	height: 30px;
+	background: #10a2e1;
+	color: #FFF;
+	font-size: 20px;
+	line-height:30px;
+	width: 310px;
+	border: none;
+	outline: none;
+}
+/* register / login -- end --*/
+
+
+#footer {
+	background: #09d;
+	height: 100px;
+
+}
+.footer_wrap {
+	color: #FFF;
+	margin: 0px auto;
+	width: 1000px;
+	padding-top: 20px;
+	text-align: center;
+}
+.footer_wrap ul {
+	display: inline-block;
+}
+.footer_wrap li {
+	float: left;
+	margin-right: 20px;	
+	font-size: 14px;
+}
+.footer_wrap hr {
+	border: none;
+	border-bottom: 1px solid #FFF;
+	clear: both;
+}
+.footer_wrap p {
+	font-size: 12px;
+	text-align: center;
+	font-family: 'arial';
+}
